@@ -1,0 +1,121 @@
+#mainNav {
+    padding-top: 2em;
+    right: 1px;
+}
+
+.right {
+    text-align: right;
+}
+
+.menu-item {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 0.7em;
+    color: black;
+    transition: color 0.5s ease;
+    text-decoration: none;
+
+}
+
+.menu-item:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+
+nav {
+    background: rgb(242, 242, 242);
+    height: 29px;
+    width: 450px;
+}
+
+#logo {
+    width: 4.6em;
+    padding-top: 1em;
+}
+
+#lower-logo {
+    width: 7.6em;
+    padding-top: 1em;
+}
+
+footer {
+    background-color: black;
+    color: rgb(242, 242, 242);
+    text-align: center;
+
+}
+
+.cryptedmail:after {
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
+
+.white-text{
+        color: rgb(242, 242, 242);
+}
+
+
+.footer-img {
+    width: 10em;
+    padding-top: 5em;
+}
+
+footer:link {
+    color: rgb(242, 242, 242);
+}
+
+footer:visited {
+    color: rgb(242, 242, 242);
+}
+
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background {
+    background-image: url("backgrounds/about-us.png");
+}
+
+.caption {
+    min-height: 540px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+}
+
+.caption p {
+    font-size: larger;
+    font-style: italic;
+}
+
+.form-width {
+    min-width: 300px;
+    border: none;
+    border-bottom: dashed 1px;
+}
+
+@keyframes background {
+    0% {
+        background-image: url("backgrounds/contact1.png");
+    }
+    30% {
+        background-image: url("backgrounds/contact1.png");
+    }
+    40% {
+        background-image: url("backgrounds/contact.png");
+    }
+    90% {
+        background-image: url("backgrounds/contact.png");
+    }
+    100% {
+        background-image: url("backgrounds/contact1.png");
+    }
+}
+
+.contact-page {
+    animation-name: background;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
